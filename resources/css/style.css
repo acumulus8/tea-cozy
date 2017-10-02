@@ -1,3 +1,4 @@
+/*why is some of the body styling not making it to the divs??*/
 body {
   font-family: helvetica;
   font-size: 22px;
@@ -7,13 +8,17 @@ body {
   text-align: center;
 }
 
+/*header*/
+
 header {
   border-bottom: 1px solid seashell;
   height: 69px;
-  width: 100%
+  width: 100%;
   position: fixed;
   top: 0;
+  z-index: 5;
   display: flex;
+  background-color: black;
 }
 
 .logo {
@@ -37,5 +42,27 @@ header {
 
 .nav-link a {
   color: seashell;
-  padding: 0 10px 0 16px;
+  padding: 0 15px 0 16px;
+}
+
+/*mission background image and text*/
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+/*need to get image to stretch all the way across*/
+.miss-img {
+  background-image: url("../images/img-mission-background.jpg");
+  position: relative;
+  top: 63px;
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.mission {
+  background-color: black;
+  width: 100%;
 }
