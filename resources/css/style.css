@@ -1,4 +1,3 @@
-/*why is some of the body styling not making it to the divs??*/
 body {
   font-family: helvetica;
   font-size: 22px;
@@ -39,7 +38,7 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
-
+/*why does the body styling not making it to the <a> divs??*/
 .nav-link a {
   color: seashell;
   padding: 0 15px 0 16px;
@@ -47,11 +46,6 @@ header {
 
 /*mission background image and text*/
 
-.img-container {
-  display: flex;
-  justify-content: center;
-}
-/*need to get image to stretch all the way across*/
 .miss-img {
   background-image: url("../images/img-mission-background.jpg");
   position: relative;
@@ -65,4 +59,26 @@ header {
 .mission {
   background-color: black;
   width: 100%;
+}
+
+/*Tea of the month text and wrapped images*/
+
+.t-month {
+  position: relative;
+  top:63px;
+}
+.month-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.month-img img {
+  width: 300px;
+  height: 200px;
+  margin-right: 28px;
+}
+
+.month-img h4 {
+  margin: 10px 0 20px 0;
 }
