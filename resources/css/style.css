@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-/*header*/
+/*header, logo, and nav*/
 
 header {
   border-bottom: 1px solid seashell;
@@ -38,7 +38,7 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
-/*why does the body styling not making it to the <a> divs??*/
+/*why does the body styling not making it's way to the <a> divs??*/
 .nav-link a {
   color: seashell;
   padding: 0 15px 0 16px;
@@ -89,7 +89,7 @@ header {
   height: 563px;
   width: 100%;
   position: relative;
-  top: 63px;
+  top: 69px;
 }
 
 .locations-txt {
@@ -131,3 +131,15 @@ header {
 }
 
 /*footer and copyright*/
+footer {
+  height: 200px;
+  position: relative;
+  top: 69px;
+}
+
+.copyright {
+  position: relative;
+  top: 69px;
+  margin-top: 20px;
+  text-align: left;
+}
