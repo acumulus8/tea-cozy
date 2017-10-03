@@ -82,3 +82,52 @@ header {
 .month-img h4 {
   margin: 10px 0 20px 0;
 }
+
+/*Locations - background img, header and columns*/
+.locations-img {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 563px;
+  width: 100%;
+  position: relative;
+  top: 63px;
+}
+
+.locations-txt {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 140px;
+  margin-bottom: 15px;
+}
+
+.locations-txt h2 {
+  padding: 10px;
+  margin: 0;
+}
+
+.lcts-container {
+  display: flex;
+  justify-content: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.locations h3 {
+  padding:0;
+  margin:0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.directions {
+  margin: 20px 0;
+}
+
+/*footer and copyright*/
