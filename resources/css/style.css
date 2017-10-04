@@ -76,7 +76,7 @@ header {
 .month-img img {
   width: 300px;
   height: 200px;
-  margin-right: 28px;
+  margin: 0 14px;
 }
 
 .month-img h4 {
