@@ -45,6 +45,10 @@ header {
 }
 
 /*mission background image and text*/
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .miss-img {
   background-image: url("../images/img-mission-background.jpg");
@@ -54,6 +58,7 @@ header {
   height: 700px;
   display: flex;
   align-items: center;
+  margin: 0 auto;
 }
 
 .mission {
@@ -86,6 +91,7 @@ header {
 /*Locations - background img, header and columns*/
 .locations-img {
   background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
   height: 563px;
   width: 100%;
   position: relative;
